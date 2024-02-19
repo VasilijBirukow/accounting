@@ -1,5 +1,5 @@
-from application_db_people import *
-from application_salary import *
+from application.db.people import *
+from salary import *
 
 if __name__ == "__main__":
     calculate_salary()
